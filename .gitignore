@@ -1,0 +1,7 @@
+*.exe
+*.hcl
+*.tfvars
+.terraform/
+terraform.*
+.aws/
+.vault-token
