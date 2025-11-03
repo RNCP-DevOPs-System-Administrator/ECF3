@@ -1,13 +1,30 @@
-- Créer un repo git
+** RNCP DevOps System Administrator **
+# 🚀 EVALUATION EN COURS DE FORMATION ECF3 - ** SECURISER L'INFRASTRUCTURE **
+
+## 📋 Cahier des charges :
+
+### ✅ Partie 1 : Gestion des variables
+- Créer une repo git
 - Créer une branche dev
-- Pushez chaques prochaines étapes sur dev (pour la correction)
+- Pushez chaques prochaines étapes sur dev
 - Créer une organisation et un workspace Terraform Cloud
 - Connecter ce workspace au repo précédemment mentionnée Terraform Cloud
-- Choisissez un provider parmi cette liste https://registry.terraform.io/browse/providers
+- Choisir un provider parmi cette liste : https://registry.terraform.io/browse/providers
 - Créer un compte sur le provider cloud AWS : https://aws.amazon.com/
-- Créez un module contenant une VM linux simple configuré à ce provider
-- Se référer à la documentation terraform pour celui-ci: https://registry.terraform.io/providers/hashicorp/aws/latest/docs
-(Pas besoin de provisionner quoi que ce soit, faire juste en sorte que l’initialisation du provider fonctionne
-et de pouvoir planifier une machine virtuelle sur le provider)
+- Créer un module contenant une vm linux simple configuré à ce provider
 - À la place de passer les clés api directement, passez les via des default variables dans un fichier nommé variables.tf
-- Enlevez ces variables du code et passer les via Terraform Cloud
+- Enlever ces variables de votre code et passer les via Terraform Cloud
+
+### ✅ Partie 2 : Passage de secret à la volée
+- Mettre en place un serveur vault avec l’option ui configurée
+- Connecter le module terraform au serveur vault
+- Faire en sorte que les clés api soient renseignées par vault et non pas vous ou vos variables terraform
+- Faire une pull request sur master
+
+### 📋 Consignes :
+Pensez à commenter/versionner les scripts et à joindre des captures d’écran
+
+### 🎯 Livrables :
+- Le repo git
+- Une organisation et un workspace connectée à ce repo git
+- Le serveur vault
