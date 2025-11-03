@@ -1,12 +1,12 @@
 # RNCP DevOps System Administrator 
-# Evaluation en cours de Formation ECF3
+** Evaluation en cours de Formation ECF3 **
 
 #  🛡️ SECURISER L'INFRASTRUCTURE
 
 ## 📋 Cahier des charges :
 
 ### ✅ Partie 1 : Gestion des variables
-- Créer une repo GIT
+- Créer un repository GIT
 - Créer une branche DEV
 - Pushez chaques prochaines étapes sur DEV
 - Créer une organisation et un workspace TERRAFORM Cloud
@@ -21,12 +21,12 @@
 - Mettre en place un serveur VAULT avec l’option UI configurée
 - Connecter le module Terraform au serveur Vault
 - Faire en sorte que les clés API soient renseignées par vault et non pas vous ou vos variables terraform
-- Faire une pull request sur master
+- Faire une pull request sur MAIN
 
 ### 📋 Consignes :
 Pensez à commenter/versionner les scripts et à joindre des captures d’écran
 
 ### 🎯 Livrables :
-- Le repo GIT
+- Le repository GITHUB
 - Une organisation et un workspace TERRAFORM connectée à ce repo git
 - Le serveur VAULT
